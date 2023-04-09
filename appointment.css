@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&family=Kaushan+Script&family=Lobster&family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Merriweather&family=Playfair+Display:wght@500&family=Roboto+Slab&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainappointment {
+    margin: 9vw 0vh;
+}
+
+.appointment {
+    margin: 5vw 0vw;
+    display: flex;
+    flex-direction: row;
+}
+
+/* 
+.appointment::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(90deg, rgba(255, 20, 145, 0.2), rgba(255, 20, 147, 0.2));
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+    left: 0;
+} */
+
+.img1 {
+    height: 45vw;
+    width: 30vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    background-image: url("img5.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img1 img {
+    width: 100%;
+    height: auto;
+}
+
+.mainappointment h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    margin-bottom: 4vw;
+    color: deeppink;
+    text-align: center;
+    font-size: 3.2vw;
+}
+
+.mainappointment h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    margin-bottom: 4vw;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.app {
+    width: 62vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app ::placeholder {
+    font-weight: 400;
+    font-family: system-ui;
+    color: deeppink;
+}
+
+.fn {
+    position: relative;
+    margin-right: 0px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    height: 7vh;
+    width: 56.35vw;
+    margin: 3.4vh 13vh;
+    background-color: white;
+}
+
+.elasticman {
+    position: relative;
+    margin-right: 0px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    height: 3.7vw;
+    width: 54vw;
+    margin: 2vw 4vw;
+    background-color: white;
+    margin-bottom: 0;
+}
+
+.elasticman input {
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    width: 47vw;
+    height: 3.7vw;
+    font-size: 1.3vw;
+    border: none;
+}
+
+.elasticman input:focus {
+    outline: none;
+}
+
+.spiderman textarea {
+    position: absolute;
+    width: 47vw;
+    margin: 1.5vh 0vh;
+    font-family: 'Merriweather', serif;
+    height: 10.5vw;
+    font-size: 1.4vw;
+    border: none;
+}
+
+.spiderman textarea:focus {
+    outline: none;
+}
+
+.spiderman {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    width: 54vw;
+    margin: 2vw 4vw;
+    height: 13vw;
+    background-color: white;
+}
+
+.deeppink {
+    color: black;
+}

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@500&family=Fraunces&family=Kaushan+Script&family=Lobster&family=Marcellus&family=Taviraj:wght@500&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Merriweather&family=Playfair+Display:wght@500&family=Roboto+Slab&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* whole class */
+.service {
+    margin: 9vw 0vh;
+}
+
+.service h1 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 3.2vw;
+    font-weight: 100;
+    color: deeppink;
+}
+
+.seth {
+    /* .SERVICE H1 */
+    font-family: 'Merriweather', serif;
+    font-size: 1.5vw;
+    color: dimgray;
+    text-align: justify;
+    padding: 0px 15px;
+}
+
+/* LEFT IMAGE OF BRIDE */
+.leftimg {
+    display: inline-block;
+    height: 58vw;
+    width: 31.5vw;
+    overflow: hidden;
+    margin: 2vw 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    background-image: url(pexels-aastha-karan-singh-2218558.jpg);
+    background-attachment: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-right: 0vw;
+}
+
+.leftimg img {
+    height: auto;
+    width: 100%;
+}
+
+/* END */
+
+
+
+/* for all services */
+.services {
+    margin: 5vw 0vw;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    height: 30vw;
+    width: 21vw;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* IMAGES */
+
+/* START ==> */
+.rightimg {
+    display: flex;
+    width: 79vw;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    justify-content: space-evenly;
+    gap: 5vw;
+}
+
+
+.more a{
+    text-decoration: none;
+    color: deeppink;
+}
+
+#s1 {
+    background-image: url(service_02.jpg);
+    background-attachment: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#s2 {
+    background-image: url(service_01.jpg);
+    background-attachment: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#s3 {
+    background-image: url(nail2.jpg);
+    background-attachment: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#s11 {
+    background-image: url(service11\ \(1\).jpg);
+    background-attachment: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#s21 {
+    background-image: url(service11\ \(2\).jpg);
+    background-attachment: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#s31 {
+    background-image: url(wp6609696-indian-bride-wallpapers.jpg);
+    background-attachment: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* END */
+.peacemaker {
+    /* .SQUARE H1 */
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    font-size: 1.7vw;
+    position: relative;
+    top: 15vw;
+}
+
+
+.rock {
+    /* .SQUARE P */
+    font-weight: 100;
+    font-family: 'Merriweather', serif;
+    position: relative;
+    text-align: justify;
+    font-size: 1.1vw;
+    /* display: none; */
+    color: dimgray;
+    padding: 0vw 1vw;
+    top: 16vw;
+}
+
+.more {
+    height: 2vw;
+    width: 100%;
+    font-size: 1.7vw;
+    text-align: center;
+    position: relative;
+    color: deeppink;
+    top: 27vw;
+}
+
+/* FOR 2 DIFFERENT IMAGES */
+
+/* START ==> */
+
+.cena {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    top: 15vw;
+}
+
+.roman {
+    top: 16vw;
+}
+
+/* END */
+.symbol {
+    height: 4vw;
+    position: absolute;
+    width: 4vw;
+    left: 41%;
+    top: 12vw;
+    background-color: deeppink;
+    border-radius: 2vw;
+}
+
+.sym {
+    color: white;
+    font-size: 1.6vw;
+    margin: 1.1vw;
+}
+
+.john {
+    top: 9.8vw;
+}
+
+.brock {
+    /* FOR NAIL ART IMAGE */
+    top: 12.5vw;
+}
+
+.minfo {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    margin-right: 9%;
+}
+
+.mo {
+    position: relative;
+    top: 0.33vw;
+    right: 2vw;
+}

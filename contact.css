@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Merriweather&family=Playfair+Display:wght@500&family=Roboto+Slab&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con {
+    margin: 9vw 0vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.form1 {
+    background-color: #fff;
+    width: 70vw;
+}
+
+.con h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    color: deeppink;
+    font-size: 3.2vw;
+    text-align: center;
+    margin: 2.5vw 0vh;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.row input {
+    position: absolute;
+    width: 19vw;
+    height: 3.7vw;
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    font-size: 1.3vw;
+    border: none;
+}
+
+.row input:focus {
+    outline: none;
+    /* IMPORTANT */
+}
+
+.conr input:focus {
+    outline: none;
+    /* IMPORTANT */
+}
+
+.name {
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    width: 25vw;
+    height: 3.7vw;
+    background-color: white;
+}
+
+
+.phone {
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    /* 0.2 or 0.3 */
+    width: 25vw;
+    height: 3.7vw;
+    background-color: white;
+}
+
+
+.apple {
+    margin: 1.14vw 2vw;
+    font-size: 1.4rem;
+    color: dodgerblue;
+}
+
+.email {
+    position: relative;
+    margin-right: 0px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    height: 3.7vw;
+    width: 56.35vw;
+    margin: 2vw 6.95vw;
+    background-color: white;
+}
+
+.email input {
+    position: absolute;
+    width: 47vw;
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    height: 3.7vw;
+    font-size: 1.3vw;
+    border: none;
+}
+
+.email input:focus {
+    outline: none;
+}
+
+.message textarea {
+    position: absolute;
+    width: 47vw;
+    margin: 2vh 0vh;
+    font-family: 'Merriweather', serif;
+    height: 10.5vw;
+    font-size: 1.4vw;
+    border: none;
+}
+
+.message textarea:focus {
+    outline: none;
+}
+
+.message {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    width: 56.35vw;
+    margin: 2vw 6.95vw;
+    height: 13vw;
+    background-color: white;
+}
+
+.conr {
+    width: 30vw;
+    z-index: 2;
+    border: none;
+    background-color: #fff;
+}
+
+.conr h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 2.5vw;
+    color: black;
+    margin: 2.5vw 0vh;
+}
+
+.info {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    padding: 0px 25px;
+}
+
+.open {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    padding: 0px 30px;
+}
+
+.info li {
+    margin: 23px 0vw;
+    font-size: 1.5vw;
+}
+
+.open li {
+    margin: 1.5vw 0vw;
+    font-size: 1.5vw;
+}
+
+.form1 ::placeholder {
+    font-weight: 400;
+    font-family: system-ui;
+    color: deeppink;
+}
+
+.blue {
+    color: darkslategray;
+    font-weight: 500;
+}
+
+.btn1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    display: block;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    height: 2.7vw;
+    color: deeppink;
+    font-size: 1.6vw;
+    background: white;
+    width: 10vw;
+    margin: 0vw auto;
+}
+
+.btn1:hover {
+    color: white;
+    background: linear-gradient(90deg, rgba(255, 20, 145, 0.4), rgba(255, 20, 147, 0.4));
+
+}
+
+.our input {
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    position: absolute;
+    width: 19vw;
+    height: 3.7vw;
+    color: dimgray;
+    font-size: 1.3vw;
+    border: none;
+}
+
+.open ul li {
+    list-style: none;
+    color: dimgray;
+}
+
+.margerita {
+    margin: 1.6vw 0px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    height: 3.3rem;
+    background-color: deeppink;
+    width: 3.3rem;
+    border-radius: 2rem;
+    margin: 0px .9vw;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.ico {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 1.1rem;
+}
+
+
+.icon:hover {
+    transform: scale(1.1);
+    transform: translateY(-10px);
+}

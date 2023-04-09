@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@500&family=Fraunces&family=Kaushan+Script&family=Lobster&family=Marcellus&family=Taviraj:wght@500&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Merriweather&family=Playfair+Display:wght@500&family=Roboto+Slab&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.team {
+    background-color: #fff;
+    margin: 9vw 0vh;
+    text-align: center;
+}
+
+.team h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 2.5vw;
+}
+
+.team h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 3.2vw;
+}
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-top: 4vw;
+}
+
+/*  */
+
+.house {
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    margin: 1vw 3vw;
+    height: 37.5vw;
+    display: inline-block;
+    width: 25vw;
+}
+
+/* FOR SECOND */
+.hold {
+    margin-top: 9vw;
+}
+
+/* END */
+
+.house .p {
+    position: relative;
+    overflow: hidden;
+}
+
+.house .p img {
+    max-width: 100%;
+    transition: transform 2s;
+}
+
+.house:hover .p img {
+    transform: scale(1.2);
+}
+
+.house .createrinfo {
+    position: absolute;
+    top: 5px;
+    bottom: 1px;
+    right: 5px;
+    left: 5px;
+    background: linear-gradient(90deg, rgba(255, 20, 145, 0.4), rgba(255, 20, 147, 0.4));
+    transform: scale(0);
+    transition: transform 0.5s;
+}
+
+.house:hover .createrinfo {
+    transform: scaleY(1);
+}
+
+.house .createrinfo .info {
+    position: absolute;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    top: 20%;
+    transform: translateY(-50%);
+}
+
+.house .createrinfo .info h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+.house .createrinfo .info p {
+    margin: 10px 0 0;
+    font-weight: bold;
+    font-size: 1.2vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    color: white;
+    padding: 0;
+}
+
+.deeppink {
+    color: black;
+}
+
+.dodgerblue {
+    color: deeppink;
+}

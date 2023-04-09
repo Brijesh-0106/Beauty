@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&family=Kaushan+Script&family=Lobster&family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Merriweather&family=Playfair+Display:wght@500&family=Roboto+Slab&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.four,
+.five,
+.three {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery {
+    margin: 9vw 0vh;
+}
+
+.album {
+    width: 50vw;
+    overflow: hidden;
+    margin: 3vw auto;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+/* AUTOSLIDER */
+.heroin {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.image {
+    display: flex;
+    width: 100%;
+    animation: slide 16s infinite;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+/* ANIMATION FOR AUTO-SLIDER */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    15% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-100%);
+    }
+
+    40% {
+        transform: translateX(-100%);
+    }
+
+    45% {
+        transform: translateX(-200%);
+    }
+
+    70% {
+        transform: translateX(-200%);
+    }
+
+    85% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+/* END OF ANIMATION */
+
+.lighter {
+    font-weight: lighter;
+}
+
+.gallery h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    position: relative;
+    text-align: center;
+    color: deeppink;
+    font-size: 3.2vw;
+}
+
+.middle {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    position: relative;
+    left: 31%;
+    font-size: 3vw;
+    display: inline-block;
+}
+
+/* END */
+
+
+/* START OF PHOTOS GALLERY*/
+.boxes {
+    margin: 3vw auto;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3vw 3vw;
+    justify-content: center;
+    width: 74vw;
+}
+
+.boxes .box {
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    display: inline-block;
+    height: 13.9vw;
+    overflow: hidden;
+    width: 21vw;
+    transition: 0.5s ease;
+}
+
+.boxes .box .boximg {
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.boxes .box .boximg img {
+    max-width: 100%;
+    transition: transform 2s;
+}
+
+.boxes .box:hover .boximg img {
+    transform: scale(1.2);
+}
+
+.boxes .box:hover {
+    transform: translateY(-10px);
+}
+
+.boxes .box .details {
+    position: absolute;
+    top: 5px;
+    bottom: 1px;
+    right: 5px;
+    left: 5px;
+    background: linear-gradient(90deg, rgba(255, 20, 145, 0.4), rgba(255, 20, 147, 0.4));
+    transform: scale(0);
+    transition: transform 0.5s;
+    z-index: 1;
+}
+
+.boxes .box:hover .details {
+    transform: scaleY(1);
+}
+
+.boxes .box:hover .boximg img {
+    z-index: -1;
+}
+
+.boxes .box .details .ross {
+    position: absolute;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.boxes .box .details .ross h4 {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    padding: 0;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.7vw;
+}
+
+.boxes .box .details .ross p {
+    font-weight: bold;
+    margin: 10px 0 0;
+    font-size: 1.1vw;
+    font-weight: 100;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    padding: 0;
+}
+
+/* END OF PHOTOS GALLERY */
