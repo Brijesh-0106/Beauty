@@ -285,11 +285,11 @@
         width: 95vw;
     }
 
-    nav a{
+    nav a {
 
         font-size: 2vw;
     }
-    
+
     a {
         font-size: 2.2vw;
     }
@@ -644,6 +644,7 @@
         margin: 1.2vw 0;
         font-size: 2.8vw;
     }
+
     nav a {
         font-size: 3vw;
         margin: 1vw 2.5vw;
@@ -690,5 +691,4 @@
     .opo {
         opacity: 1;
     }
-
 }
