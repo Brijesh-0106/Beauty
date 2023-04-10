@@ -352,20 +352,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    table {
-        width: 85%;
-    }
-
-    th {
-        height: 7vw;
-        font-size: 3vw;
-
-    }
-
-    td {
-        height: 6vw;
-        font-size: 3vw;
-    }
 
     .flexible {
         height: 32vw;
