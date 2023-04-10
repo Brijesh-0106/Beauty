@@ -9,7 +9,23 @@
 }
 
 
-@media only screen and (min-width: 500px) and (max-width: 1000px) {
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+
+    table {
+        width: 80%;
+    }
+
+    th {
+        height: 6vw;
+        font-size: 2vw;
+
+    }
+
+    td {
+        height: 5.5vw;
+        font-size: 2vw;
+    }
+
 
     .burger {
         display: none;
@@ -336,6 +352,20 @@
 }
 
 @media only screen and (max-width: 600px) {
+    table {
+        width: 85%;
+    }
+
+    th {
+        height: 7vw;
+        font-size: 3vw;
+
+    }
+
+    td {
+        height: 6vw;
+        font-size: 3vw;
+    }
 
     .flexible {
         height: 32vw;
@@ -367,6 +397,7 @@
     }
 
     .burger {
+        top: 1vh;
         display: block;
     }
 
@@ -636,7 +667,7 @@
         opacity: 0;
         position: relative;
         width: 100vw;
-        height: 10vw;
+        height: 6vh;
         flex-direction: column;
     }
 
